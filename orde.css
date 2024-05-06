@@ -1,0 +1,90 @@
+/* Basic styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+
+}
+
+.prescription-container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+font-family: "Roboto";
+font-style:italic;
+ color:#0000FF;
+}
+
+.header img {
+  width: 100px;
+  height: auto;
+  margin-right: 20px;
+ 
+}
+.company-name {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.prescription-form {
+  padding: 20px;
+font-family: "Roboto";
+font-style:italic;
+ color:#0000FF;
+
+}
+
+.prescription-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+font-family: "Roboto";
+font-style:italic;
+ color:#0000FF;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.form-group textarea {
+  height: 100px;
+}
+
+button {
+      width: 15%;
+      padding: 05px 10px;
+      background-color: #0000FF;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      margin: 10px auto;
+    }

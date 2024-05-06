@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulaire d'ordonnance médicale</title>
+  <link rel="stylesheet" href="orde.css">
+</head>
+<body>
+  <div class="prescription-container">
+    <div class="header">
+      <img src="mo.jpg" alt="Logo du centre médical">
+ <span class="company-name">MEDICAL CARE</span>
+      
+ 
+    </div>
+
+    <div class="prescription-form">
+      <h2>Formulaire d'ordonnance</h2>
+      <form id="ordonnance-form">
+        <div class="form-group">
+          <label for="serial">S. No</label>
+          <input type="text" id="serial">
+        </div>
+        <div class="form-group">
+          <label for="patient-name">Nom du patient</label>
+          <input type="text" id="patient-name">
+        </div>
+        <div class="form-group">
+          <label for="date">Date</label>
+          <input type="date" id="date">
+        </div>
+        <div class="form-group">
+          <label for="birth-date">Date de naissance</label>
+          <input type="date" id="birth-date">
+        </div>
+        <div class="form-group">
+          <label for="age">Âge</label>
+          <input type="number" id="age">
+        </div>
+        <div class="form-group">
+          <label for="gender">Genre</label>
+          <select id="gender">
+            <option value="male">Masculin</option>
+            <option value="female">Féminin</option>
+            <option value="other">Autre</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="prescription">médicament</label>
+          <textarea id="prescription" rows="4"></textarea>
+        </div>
+        
+           <button>Créer l'ordonnance</button>
+         
+      
+      </form>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
