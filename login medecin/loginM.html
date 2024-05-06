@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page login patient</title>
+    <link rel="stylesheet" href="loginM.css">
+</head>
+<body>
+
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <!-- Login Form -->
+      <h2>Connexion</h2>
+      <!-- ... -->
+<input type="email" id="email" placeholder="Email">
+<input type="password" id="password" placeholder="Mot de passe">
+<div class="checkbox-container">
+  <input type="checkbox" id="remember-me">
+  <label for="remember-me">Remember Me</label>
+</div>
+
+<button id="loginButton">Connexion</button>
+<!-- ... -->
+
+      
+      <a href="#">Forgot Password?</a>
+      <p>Don't have an account?
+        <a href="#">Signup</a>
+      </p>
+    </div>
+    
+    <div class="flip-card-back">
+      <!-- Signup Form -->
+      <h2>Inscription</h2>
+      <input type="text" placeholder="Nom">
+      <input type="text" placeholder="Prénom">
+      <input type="text" placeholder="Spécialité">
+      <input type="text" placeholder="Lieu de travail">
+     <button id="signupButton" onclick="return validation_compte();">Inscription</button>
+    </div>
+
+  </div>
+</div>
+<script src="loginM.js"></script>
+  </body>
+  </html>
+  

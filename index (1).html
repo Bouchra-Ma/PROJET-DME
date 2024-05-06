@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page d'accueil médicale</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+       
+        <h1 style="text-align: center; font-size: 2.5em; margin-bottom: 20px;"> Votre santé est notre priorité</h1>
+        <img src="hna uji l ism.png" alt="Logo de votre site" class="logo">
+        <nav>
+            <ul>
+                <li><a href="#espace patient">Espace patient</a></li>
+                
+                <li><a href="#services"id="startAnimation">Services</a></li>
+                
+                <li><a href="login medecin/loginM.html">Espace médecin</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <img src="big.jpg" alt="Docteur flou" class="docteur-flou">
+        <div class="hero-text">
+            <h2>Prenez soin de votre santé</h2>
+            <p>Notre équipe de professionnels qualifiés est là pour vous accompagner.</p>
+            <a href="#services" class="btn btn-primary">Découvrez nos services</a>
+        </div>
+    </section>
+
+    <div class="search-bar">
+        <input type="text" placeholder="Recherchez un service médical..." id="searchInput">
+        <button id="searchBtn"><img src="image_2024-05-04_035218852-removebg-preview.png" alt="Recherche"/></button> </div>
+      <div id="results"></div>
+      
+
+    <section id="services">
+        <h2 style="font-size: 2.5em; margin-bottom: 20px;">Nos services</h2>
+
+        <div class="services-grid">  
+            <div class="service">
+                <a href="informs/inform1.html"><img src="service1.jpg" alt="Service 1"></a>
+                <h3>Pédiatre</h3>
+            </div>
+            <div class="service">
+                <a href="informs/inform2.html"><img src="Free Photo _ Dentist doing a check up on the patient.jpg" alt="Service 2"></a>
+                <h3>Dentiste</h3>
+            </div>
+            <div class="service">
+                <a href="informs/inform3.html"><img src="Medicine and pregnancy.jpg" alt="Service 3"></a>
+                <h3>Gynécologue</h3>
+            </div>
+            <div class="service">
+                <a href="informs/inform4.html"><img src="d700242d-a8b2-4b34-9983-c5a23ccdd5ff.jpg" alt="Service 4"></a>
+                <h3>Opticien</h3>
+
+        </div>
+        <div class="service">
+            <a href="informs/inform5.html"><img src="Benefits of Compression Garment after a Hysterectomy (With Video).jpg" alt="Service 5"></a>
+            <h3>Chirurgien</h3>
+            
+        
+    </div>
+    <div class="service">
+        <a href="informs/inform8.html"><img src="Doctor examining patients ear with otoscope.jpg" alt="Service 3"></a>
+        <h3>ORL</h3>
+        
+    </div>
+    <div class="service">
+        <a href="informs/inform9.html"><img src="Vivian.jpg" alt="Service 3"></a>
+        <h3>Dermatologue</h3>
+        
+    </div>
+
+    </section>
+
+    
+    <footer>
+        <p>&copy; 2024 MEDICAL CARE</p>
+    </footer>
+
+    <script>
+document.getElementById('searchBtn').addEventListener('click', function() {
+  var searchTerm = document.getElementById('searchInput').value;
+  // Effectuer la recherche avec searchTerm...
+});
+
+    </script>
+</body>
+</html>

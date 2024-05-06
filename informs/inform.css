@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+     background-image:url("lt.jpg");
+background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.doctor-card {
+display: flex;
+ display: flex;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 50px;
+    padding: 15px;
+font-family: "Roboto";
+font-style:italic;
+ color:#191970;
+}
+button {
+      width: 10%;
+      padding: 5px 10px;
+      background-color: #191970;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      margin: 10px auto;
+    }
+
+.doctor-card img:first-of-type {
+    /* Styles for the first image */
+    width: 150px; /* Adjust the width as needed */
+    height: 215px; /* Maintain aspect ratio */
+    margin-right: 30px; /* Add some space to the right */
+  }
+  
+  .doctor-card img:last-of-type {
+    /* Styles for the second image (circle) */
+    width: 100px; /* Adjust the width as needed */
+    height: 100px; /* Set height equal to width for a circle */
+    border-radius: 50%; /* Make the border radius 50% for a circle */
+  }
+.doctor-info {
+    flex: 1;
+}
+
+h2 {
+    margin: 0 0 10px;
+}
+
+img.calendar-icon {
+    cursor: pointer;
+}
